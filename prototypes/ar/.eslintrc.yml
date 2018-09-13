@@ -1,0 +1,9 @@
+extends: airbnb
+env:
+  browser: true
+globals:
+  THREE: true
+  THREEx: true
+  jsfeat: true
+rules:
+  no-bitwise: 0

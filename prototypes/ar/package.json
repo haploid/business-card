@@ -1,0 +1,34 @@
+{
+  "name": "scratch-space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmptable/scratch-space.git"
+  },
+  "scripts": {
+    "start": "node server/build/server.js",
+    "build": "node node_modules/webpack/bin/webpack.js",
+    "watch": "node node_modules/webpack/bin/webpack.js --watch"
+  },
+  "author": "Owen Trueblood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmptable/scratch-space/issues"
+  },
+  "homepage": "https://github.com/jmptable/scratch-space#readme",
+  "dependencies": {
+    "audiobuffer-to-wav": "^1.0.0",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.15.2",
+    "three": "^0.96.0",
+    "webpack": "^2.4.1",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
